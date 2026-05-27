@@ -282,7 +282,7 @@ const policyData = {
       <p>We may update this Privacy Policy from time to time. Continued use of the site after changes constitutes acceptance of the revised policy.</p>
 
       <h4>Contact Us</h4>
-      <p>If you have any questions about this Privacy Policy, please contact us at <strong>info@pampangaagri.com</strong>.</p>
+      <p>If you have any questions about this Privacy Policy, please contact us at <strong>pampangaagri@gmail.com</strong>.</p>
     `
   },
   terms: {
@@ -319,7 +319,7 @@ const policyData = {
       <p>We reserve the right to modify these Terms of Service at any time. Updates will be posted on this page with a revised effective date. Continued use of the website following any changes constitutes your acceptance of the new terms.</p>
 
       <h4>Contact Us</h4>
-      <p>For questions regarding these Terms of Service, please reach out to us at <strong>info@pampangaagri.com</strong>.</p>
+      <p>For questions regarding these Terms of Service, please reach out to us at <strong>pampangaagri@gmail.com</strong>.</p>
     `
   }
 };
