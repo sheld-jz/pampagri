@@ -160,6 +160,68 @@ nav {
 .btn-primary:hover { background: #b87d08; transform: translateY(-1px); }
 .btn-primary svg { width: 16px; height: 16px; }
 
+/* Hero eyebrow */
+.hero-eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber-light);
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+/* Hero actions row */
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Ghost button */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: rgba(255,255,255,0.9);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 14px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 2px solid rgba(255,255,255,0.35);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.btn-ghost:hover {
+  border-color: var(--amber-light);
+  color: var(--amber-light);
+  background: rgba(255,255,255,0.05);
+}
+
+/* Hero badges */
+.hero-badges {
+  display: flex;
+  gap: 10px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.hero-badge {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.85);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 6px 14px;
+  border-radius: 50px;
+  backdrop-filter: blur(4px);
+}
+
 /* ── SLIDES STRIP ── */
 .slides-strip {
   background: var(--green-dark);
@@ -232,10 +294,15 @@ nav {
   overflow: hidden;
   border: 1px solid rgba(0,0,0,0.06);
   transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
 }
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(0,0,0,0.1);
+}
+.card:hover .card-link {
+  gap: 10px;
+  text-decoration: underline;
 }
 .card-img {
   width: 100%;
@@ -267,8 +334,45 @@ nav {
   color: var(--red-bar);
   text-decoration: none;
   transition: gap 0.2s;
+  pointer-events: none;
 }
-.card-link:hover { gap: 10px; text-decoration: underline; }
+
+/* ── MODAL SOURCES ── */
+.modal-sources {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+.modal-sources h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted, #888);
+  margin-bottom: 10px;
+}
+.modal-sources ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.modal-sources ul li::before {
+  content: "→ ";
+  color: var(--red-bar);
+  font-weight: 700;
+}
+.modal-sources a {
+  font-size: 0.82rem;
+  color: var(--green-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  word-break: break-word;
+}
+.modal-sources a:hover {
+  color: var(--red-bar);
+}
 
 /* ── RESOURCES / STATS SLIDESHOW ── */
 .why-section {

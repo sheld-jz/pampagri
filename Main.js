@@ -33,6 +33,16 @@ const modalData = {
         <li><strong>Layer Feed:</strong> Enriched with calcium (from oyster shell or limestone) to support strong eggshell formation, alongside protein and vitamins.</li>
         <li><strong>Key ingredients</strong> include yellow corn (main energy source), soybean meal (protein), rice bran, fish meal, vitamins, and minerals. To lower feed costs, research is being done on locally accessible substitutes including copra meal and black army fly larvae.</li>
       </ul>
+
+      <div class="modal-sources">
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Broiler" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Broiler</a></li>
+          <li><a href="https://www.formsonfire.com/blog/broiler-production-guidelines" target="_blank" rel="noopener">https://www.formsonfire.com/blog/broiler-production-guidelines</a></li>
+          <li><a href="https://www.poultryhub.org/production/chicken-egg-layer-industry/layer-farm-sequence" target="_blank" rel="noopener">https://www.poultryhub.org/production/chicken-egg-layer-industry/layer-farm-sequence</a></li>
+          <li><a href="https://www.stockfeed.co.nz/resources/poultry-feed/chicken-feed-guide/" target="_blank" rel="noopener">https://www.stockfeed.co.nz/resources/poultry-feed/chicken-feed-guide/</a></li>
+        </ul>
+      </div>
     `
   },
 
@@ -66,6 +76,16 @@ const modalData = {
         <li><strong>Sow Feed:</strong> Specially formulated for gestation and lactation, with higher calcium, phosphorus, and vitamins to support piglet development and milk production.</li>
         <li><strong>Common ingredients:</strong> Yellow corn, soybean meal, rice bran, copra meal, fishmeal, salt, vitamins, and minerals. Some small-scale farmers supplement with vegetable waste and kitchen scraps, but this needs to be well cooked to lower the risk of illness.</li>
       </ul>
+
+      <div class="modal-sources">
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Pig" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Pig</a></li>
+          <li><a href="https://www.fao.org/3/ca5987en/ca5987en.pdf" target="_blank" rel="noopener">https://www.fao.org/3/ca5987en/ca5987en.pdf</a></li>
+          <li><a href="https://porkcheckoff.org/pork-branding/facts-statistics/life-cycle-of-a-market-pig/" target="_blank" rel="noopener">https://porkcheckoff.org/pork-branding/facts-statistics/life-cycle-of-a-market-pig/</a></li>
+          <li><a href="https://clear.ucdavis.edu/explainers/what-do-we-feed-swine" target="_blank" rel="noopener">https://clear.ucdavis.edu/explainers/what-do-we-feed-swine</a></li>
+        </ul>
+      </div>
     `
   },
 
@@ -98,12 +118,22 @@ const modalData = {
         <li><strong>Concentrate Supplements:</strong> For dairy carabaos or working animals, concentrate feeds made from rice bran, corn, copra meal, and soybean meal are given to meet higher energy and protein demands.</li>
         <li><strong>Water:</strong> A carabao needs 30 to 50 liters of clean, fresh water per day, and more when it's hot outside or they have a lot of labor to do.</li>
       </ul>
+
+      <div class="modal-sources">
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://www.pcc.gov.ph/homepage/" target="_blank" rel="noopener">https://www.pcc.gov.ph/homepage/</a></li>
+          <li><a href="https://www.scribd.com/document/613611617/ANS145-Buffalo-Management" target="_blank" rel="noopener">https://www.scribd.com/document/613611617/ANS145-Buffalo-Management</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Carabao" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Carabao</a></li>
+          <li><a href="https://www.pcc.gov.ph/using-rice-straws-as-carabao-feed-good-alternative-to-open-field-burning-pcc-nutritionist-stresses/" target="_blank" rel="noopener">https://www.pcc.gov.ph/using-rice-straws-as-carabao-feed-good-alternative-to-open-field-burning-pcc-nutritionist-stresses/</a></li>
+        </ul>
+      </div>
     `
   },
 
   cattle: {
-    tag: "Livestock — Cattle",
-    title: "Cattle",
+    tag: "Livestock — Cattles",
+    title: "Cattles",
     img: "picture/cattle.png",
     content: `
       <h4>Cattle in Pampanga</h4>
@@ -132,11 +162,21 @@ const modalData = {
         <li><strong>Minerals and Vitamins:</strong> To avoid deficiencies that impact growth, reproduction, and milk supply, free-choice mineral blocks (salt licks) containing calcium, phosphorus, and trace minerals are offered.</li>
         <li><strong>Water:</strong> Cattle require 40 to 60 liters of clean water per day, with pregnant cows and the hot dry season requiring more.</li>
       </ul>
+
+      <div class="modal-sources">
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Cattle" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Cattle</a></li>
+          <li><a href="https://www.scribd.com/document/81704349/Cattle-Raising" target="_blank" rel="noopener">https://www.scribd.com/document/81704349/Cattle-Raising</a></li>
+          <li><a href="https://www.fao.org/3/i3437e/i3437e.pdf" target="_blank" rel="noopener">https://www.fao.org/3/i3437e/i3437e.pdf</a></li>
+          <li><a href="https://opensanctuary.org/daily-diet-treats-supplements-for-cows/?gad_source=1&gad_campaignid=18503980724&gclid=EAIaIQobChMI5tXR2PDZlAMVZssWBR1rhAgJEAAYASAAEgIgxvD_BwE" target="_blank" rel="noopener">https://opensanctuary.org/daily-diet-treats-supplements-for-cows/?gad_source=1&gad_campaignid=18503980724&gclid=EAIaIQobChMI5tXR2PDZlAMVZssWBR1rhAgJEAAYASAAEgIgxvD_BwE</a></li>
+        </ul>
+      </div>
     `
   },
   duck: {
     tag: "Livestock — Ducks",
-    title: "Ducks (Itik)",
+    title: "Ducks",
     img: "picture/duck.png",
     content: `
       <h4>Ducks in Pampanga</h4>
@@ -164,6 +204,16 @@ const modalData = {
         <li><strong>Corn and Soybean Meal:</strong> U sed in commercial meals to balance protein and energy, particularly for layer ducks that lay eggs for balut.</li>
         <li><strong>Water:</strong> At least 0.5 liters of water are used daily by each duck, and more in hot conditions. Health and egg production depend on having access to clean water for drinking and, preferably, bathing.</li>
       </ul>
+
+      <div class="modal-sources">
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S0032579121004260" target="_blank" rel="noopener">https://www.sciencedirect.com/science/article/pii/S0032579121004260</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Duck" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Duck</a></li>
+          <li><a href="https://www.poultryhub.org/all-about-poultry/nutrition/nutrient-requirements-of-ducks" target="_blank" rel="noopener">https://www.poultryhub.org/all-about-poultry/nutrition/nutrient-requirements-of-ducks</a></li>
+          <li><a href="https://cagayanvalley.da.gov.ph/wp-content/uploads/2018/02/duck.pdf" target="_blank" rel="noopener">https://cagayanvalley.da.gov.ph/wp-content/uploads/2018/02/duck.pdf</a></li>
+        </ul>
+      </div>
     `
   },
  
@@ -197,6 +247,16 @@ const modalData = {
         <li><strong>Minerals:</strong> There should always be a salt block or loose mineral mix on hand. In order to prevent metabolic problems, calcium and phosphorus are particularly crucial for developing children and pregnant women.</li>
         <li><strong>Water:</strong> Goats require one to three liters of clean water per day; during the dry season and during breastfeeding, this amount increases. Goats won't drink stale or unclean water, so always give them clean, fresh water.</li>
       </ul>
+
+      <div class="modal-sources">
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Goat" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Goat</a></li>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S0921448821000791" target="_blank" rel="noopener">https://www.sciencedirect.com/science/article/pii/S0921448821000791</a></li>
+          <li><a href="https://www.goatfarmers.com/blog/beginners-guide-raising-goats%2F" target="_blank" rel="noopener">https://www.goatfarmers.com/blog/beginners-guide-raising-goats%2F</li>
+          <li><a href="https://vetmed.tennessee.edu/wp-content/uploads/sites/4/UTCVM_LACS-FeedingGoats.pdf" target="_blank" rel="noopener">https://vetmed.tennessee.edu/wp-content/uploads/sites/4/UTCVM_LACS-FeedingGoats.pdf</a></li>
+        </ul>
+      </div>
     `
   },
 };
@@ -294,8 +354,20 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-document.querySelectorAll('[data-modal]').forEach(link => {
-  link.addEventListener('click', e => { e.preventDefault(); openModal(link.dataset.modal); });
+document.querySelectorAll('[data-modal]').forEach(el => {
+  el.addEventListener('click', e => {
+    e.preventDefault();
+    openModal(el.dataset.modal);
+  });
+  // Keyboard accessibility for card divs
+  if (el.tagName !== 'A') {
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openModal(el.dataset.modal);
+      }
+    });
+  }
 });
 document.getElementById('modalClose').addEventListener('click', closeModal);
 overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
